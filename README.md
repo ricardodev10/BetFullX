@@ -19,7 +19,7 @@ This project is responsible for consuming data from an API and integrating it wi
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:ricardodev10/BetFullX.git
    cd <repository-name>
    ```
 
@@ -34,12 +34,12 @@ This project is responsible for consuming data from an API and integrating it wi
 
    ```env
    API_KEY=<your-api-key>
-   API_URL=<api-url>
+   API_URL=https://v3.football.api-sports.io
    PROJECT_ID=<gcp-project-id>
    DATASET_NAME=<dataset-name>
    FULL_LOAD_DATE=2023-01-01
-   LEAGUE=<league-id>
-   SEASON=<season>
+   LEAGUE=2
+   SEASON=2023
    ```
 
 4. **Set up the GCP service key**:  
